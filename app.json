@@ -1,0 +1,12 @@
+{
+  "name": "dotnetcore-heroku-deploy",
+  "description": "ASP.NET Core Web Application",
+  "repository": "https://github.com/drewsheneman/dotnetcore-heroku-deploy",
+  "keywords": ["aspnet", "core"],
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnetcore-buildpack#v1.0.4"
+    }
+  ]
+}
